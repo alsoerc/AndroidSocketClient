@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.presenceView"
+    android:background="@drawable/fondo_movimiento">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_vertical"
+        android:layout_marginHorizontal="15dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="95dp"
+            android:src="@drawable/txt_movimiento"
+            android:layout_marginBottom="40dp"/>
+
+        <ImageView
+            android:id="@+id/btnEncenderMovimiento"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:src="@drawable/btn_encendido"
+            android:layout_marginBottom="10dp"/>
+        <ImageView
+            android:id="@+id/btnApagarMovimiento"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:src="@drawable/btn_apagar"
+            android:layout_marginBottom="10dp"/>
+
+        <ImageView
+            android:id="@+id/btnAnalizarMovimiento"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:src="@drawable/txt_nivel_movimiento"
+            android:layout_marginBottom="10dp"/>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

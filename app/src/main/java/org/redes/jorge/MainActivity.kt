@@ -6,7 +6,8 @@ import android.os.StrictMode
 import android.support.v7.app.AppCompatActivity
 import kotlinx.android.synthetic.main.activity_main.*
 import org.redes.jorge.ui.LightView
-
+import org.redes.jorge.ui.presenceView
+import org.redes.jorge.ui.soundView
 
 
 class MainActivity : AppCompatActivity() {
@@ -23,6 +24,17 @@ class MainActivity : AppCompatActivity() {
            var intent = Intent(this, LightView::class.java)
             startActivity(intent)
         }
+
+        menu_sonido.setOnClickListener {
+            var intent = Intent(this, soundView::class.java)
+            startActivity(intent)
+        }
+
+        menu_movimiento.setOnClickListener {
+            var intent = Intent(this, presenceView::class.java)
+            startActivity(intent)
+        }
+
 
 
     }

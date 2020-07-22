@@ -31,14 +31,32 @@
             android:layout_width="match_parent"
             android:layout_height="90dp"
             android:src="@drawable/btn_apagar"
-            android:layout_marginBottom="10dp"/>
-
+            android:layout_marginBottom="20dp"/>
         <ImageView
             android:id="@+id/btnAnalizarMovimiento"
             android:layout_width="match_parent"
             android:layout_height="90dp"
-            android:src="@drawable/txt_nivel_movimiento"
-            android:layout_marginBottom="10dp"/>
+            android:src="@drawable/btn_analizar"
+            android:layout_marginBottom="10dp"
+            />
+        <ImageView
+            android:id="@+id/iconAlertMovimiento"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:src="@drawable/alert128"
+            />
+
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:id="@+id/txtBackM"
+            android:text="Atrás"
+            android:textStyle="bold"
+            android:textColor="@android:color/holo_red_light"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="28dp"/>
+
 
     </LinearLayout>
 

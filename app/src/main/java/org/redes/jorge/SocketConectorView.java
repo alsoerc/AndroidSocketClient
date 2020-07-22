@@ -46,4 +46,6 @@ public class SocketConectorView {
         return this.dis;
     }
 
+
+
 }
